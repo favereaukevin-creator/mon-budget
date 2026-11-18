@@ -200,7 +200,7 @@ footer a{color:var(--petrole)}
       <button class="btn btn--fantome" id="b-exporter" type="button" aria-haspopup="true">Exporter ▾</button>
       <div class="menu-liste cache" id="menu-export">
         <button type="button" data-export="xlsx">Fichier Excel<small>Synthèse mois par mois et toutes les opérations</small></button>
-        <button type="button" data-export="pdf">PDF du mois affiché<small>S’ouvre pour impression : choisis « Enregistrer en PDF »</small></button>
+        <button type="button" data-export="pdf">PDF du mois affiché<small>S’ouvre pour impression : choisissez « Enregistrer en PDF »</small></button>
       </div>
     </div>
     <button class="btn btn--fantome" id="b-reglages" type="button" title="Catégories, règles, comptes, sauvegarde">Réglages</button>
@@ -213,27 +213,27 @@ footer a{color:var(--petrole)}
 
   <!-- Accueil (aucune donnée) -->
   <section id="vue-accueil" class="carte accueil cache">
-    <h1><span id="salut"></span>Ton budget, mois après mois</h1>
-    <p>Importe le relevé de ta banque : chaque opération est rangée toute seule dans une catégorie, et tu vois tout de suite tes revenus, tes charges et ce qu’il te reste à la fin du mois.</p>
+    <h1><span id="salut"></span>Votre budget, mois après mois</h1>
+    <p>Importez le relevé de votre banque : chaque opération est rangée toute seule dans une catégorie, et vous voyez tout de suite vos revenus, vos charges et ce qu’il vous reste à la fin du mois.</p>
     <div class="etapes">
-      <div class="etape"><b>1</b><p><strong>Télécharge ton relevé</strong> depuis le site de ta banque : CSV, Excel, OFX ou PDF.</p></div>
-      <div class="etape"><b>2</b><p><strong>Dépose-le ici.</strong> Un fichier par compte ; tu peux en ajouter un chaque mois.</p></div>
-      <div class="etape"><b>3</b><p><strong>Corrige ce qui est mal classé.</strong> L’outil retient ton choix pour les mois suivants.</p></div>
+      <div class="etape"><b>1</b><p><strong>Téléchargez votre relevé</strong> depuis le site de votre banque : CSV, Excel, OFX ou PDF.</p></div>
+      <div class="etape"><b>2</b><p><strong>Déposez-le ici.</strong> Un fichier par compte ; vous pouvez en ajouter un chaque mois.</p></div>
+      <div class="etape"><b>3</b><p><strong>Corrigez ce qui est mal classé.</strong> L’outil retient votre choix pour les mois suivants.</p></div>
     </div>
     <div class="depot" id="depot-accueil" tabindex="0" role="button">
-      <strong>Glisse ton relevé ici, ou clique pour le choisir</strong>
+      <strong>Glissez votre relevé ici, ou cliquez pour le choisir</strong>
       <span>CSV, Excel (.xls, .xlsx), OFX, QIF ou PDF</span>
     </div>
     <p style="margin-top:16px"><button class="btn btn--fantome btn--petit" id="b-exemple" type="button">Voir avec un exemple fictif</button>
       <button class="btn btn--fantome btn--petit" id="b-coller" type="button">Coller le texte d’un relevé</button>
       <button class="btn btn--fantome btn--petit" id="b-restaurer-accueil" type="button">Reprendre une sauvegarde</button></p>
     <div class="rassure"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
-      <span><strong>Tes données restent sur ton ordinateur.</strong> Le relevé est lu directement par ton navigateur : rien n’est envoyé sur Internet, ni à ton conseiller, ni à personne. Les chiffres sont gardés dans ce navigateur pour les mois suivants.</span></div>
+      <span><strong>Vos données restent sur votre ordinateur.</strong> Le relevé est lu directement par votre navigateur : rien n’est envoyé sur Internet, ni à votre conseiller, ni à personne. Les chiffres sont gardés dans ce navigateur pour les mois suivants.</span></div>
   </section>
 
   <!-- Tableau de bord -->
   <section id="vue-budget" class="cache">
-    <div id="bandeau-exemple" class="bandeau cache">Tu regardes un <strong>exemple fictif</strong>. Importe ton propre relevé quand tu veux.
+    <div id="bandeau-exemple" class="bandeau cache">Vous regardez un <strong>exemple fictif</strong>. Importez votre propre relevé quand vous voulez.
       <button class="btn btn--petit btn--fantome" id="b-quitter-exemple" type="button">Effacer l’exemple</button></div>
 
     <div class="mois-barre" style="margin-top:6px">
@@ -248,7 +248,7 @@ footer a{color:var(--petrole)}
 
     <div class="carte">
       <h2>Évolution mois par mois</h2>
-      <p class="sous">Ce qui rentre, ce qui sort, et ce qu’il reste chaque mois. Clique sur un mois pour l’afficher.</p>
+      <p class="sous">Ce qui rentre, ce qui sort, et ce qu’il reste chaque mois. Cliquez sur un mois pour l’afficher.</p>
       <div class="graph-wrap" id="graphique"></div>
       <div class="legende">
         <span><i style="background:var(--t-revenu)"></i>Revenus</span>
@@ -275,7 +275,7 @@ footer a{color:var(--petrole)}
 
     <div class="carte" id="carte-ops">
       <h2>Les opérations du mois <span id="badge-aclasser"></span></h2>
-      <p class="sous">Une opération mal rangée ? Choisis la bonne catégorie : les opérations semblables suivent, et la règle est retenue pour les prochains relevés.</p>
+      <p class="sous">Une opération mal rangée ? Choisissez la bonne catégorie : les opérations semblables suivent, et la règle est retenue pour les prochains relevés.</p>
       <div class="filtres">
         <input type="search" id="f-texte" placeholder="Rechercher un libellé…">
         <select id="f-cat" aria-label="Filtrer par catégorie"></select>
@@ -289,7 +289,7 @@ footer a{color:var(--petrole)}
 
 <footer>
   Outil proposé par Kevin Favereau, conseiller en gestion de patrimoine — <a href="https://kevinfavereau.fr" target="_blank" rel="noopener">kevinfavereau.fr</a><br>
-  Tout est calculé dans ton navigateur : aucune donnée bancaire ne quitte ton ordinateur.
+  Tout est calculé dans votre navigateur : aucune donnée bancaire ne quitte votre ordinateur.
 </footer>
 
 <!-- Fenêtre d'import -->
@@ -306,7 +306,7 @@ footer a{color:var(--petrole)}
 <dialog id="dlg-coller">
   <div class="dlg-tete"><h2>Coller le texte d’un relevé</h2><button class="fermer" data-fermer aria-label="Fermer">×</button></div>
   <div class="dlg-corps">
-    <p class="aide">Si ta banque ne propose pas d’export : ouvre le relevé PDF, sélectionne tout (⌘A ou Ctrl+A), copie (⌘C ou Ctrl+C) et colle ci-dessous. Chaque ligne doit contenir une date et un montant.</p>
+    <p class="aide">Si votre banque ne propose pas d’export : ouvrez le relevé PDF, sélectionnez tout (⌘A ou Ctrl+A), copiez (⌘C ou Ctrl+C) et collez ci-dessous. Chaque ligne doit contenir une date et un montant.</p>
     <textarea id="coller-texte" spellcheck="false" placeholder="05/10/2026  CARTE CARREFOUR MARKET   -45,67&#10;28/10/2026  VIR SALAIRE ENTREPRISE  +2 150,00"></textarea>
   </div>
   <div class="dlg-pied">
@@ -591,7 +591,7 @@ let avertiStockage = false;
 function enregistrer(){
   try{ localStorage.setItem(CLE, JSON.stringify(etat)); }
   catch(err){
-    if(!avertiStockage){ avertiStockage = true; toast('Ce navigateur ne garde pas les données : pense à « Réglages › Sauvegarde ».'); }
+    if(!avertiStockage){ avertiStockage = true; toast('Ce navigateur ne garde pas les données : pensez à « Réglages › Sauvegarde ».'); }
   }
 }
 
@@ -1072,7 +1072,7 @@ function ouvrirImport(lots){
   const corps = $('import-corps');
   if(!ops.length){
     corps.innerHTML = `<p><strong>Aucune opération n’a pu être lue${lots.length ? ' dans « ' + esc(lots.map(l => l.fichier).join(', ')) + ' »' : ''}.</strong></p>
-      <p class="aide">Les relevés scannés (photos) ne contiennent pas de texte lisible. Le plus fiable : sur le site de ta banque, télécharge l’historique du compte au format <strong>CSV</strong>, <strong>Excel</strong> ou <strong>OFX</strong>. Tu peux aussi copier-coller le texte du relevé (bouton « Coller le texte d’un relevé »).</p>`;
+      <p class="aide">Les relevés scannés (photos) ne contiennent pas de texte lisible. Le plus fiable : sur le site de votre banque, téléchargez l’historique du compte au format <strong>CSV</strong>, <strong>Excel</strong> ou <strong>OFX</strong>. Vous pouvez aussi copier-coller le texte du relevé (bouton « Coller le texte d’un relevé »).</p>`;
     $('import-valider').classList.add('cache');
     $('dlg-import').showModal();
     return;
@@ -1096,7 +1096,7 @@ function ouvrirImport(lots){
         <input type="text" id="imp-nom" maxlength="40" value="${esc(etat.comptes.length ? 'Compte ' + (etat.comptes.length + 1) : 'Compte courant')}"></div>
     </div>
     <div class="resume-import" id="imp-resume"></div>
-    ${pdfSansColonnes ? `<p class="aide">Vérifie les signes ci-dessous : dans ce PDF, les colonnes Débit / Crédit n’ont pas été repérées. Si les entrées et sorties sont inversées : <button class="btn btn--petit btn--fantome" id="imp-inverser" type="button">Inverser les signes</button></p>` : ''}
+    ${pdfSansColonnes ? `<p class="aide">Vérifiez les signes ci-dessous : dans ce PDF, les colonnes Débit / Crédit n’ont pas été repérées. Si les entrées et sorties sont inversées : <button class="btn btn--petit btn--fantome" id="imp-inverser" type="button">Inverser les signes</button></p>` : ''}
     ${erreurs.length ? `<p class="aide">Non lu : ${esc(erreurs.map(e => e.fichier).join(', '))}.</p>` : ''}
     <p class="aide">Du ${dateFr(dates[0])} au ${dateFr(dates[dates.length-1])}. Aperçu des premières lignes :</p>
     <div class="tab-wrap"><table class="ops" id="imp-apercu"></table></div>`;
@@ -1162,7 +1162,7 @@ function validerImport(){
   const aClasser = nouvelles.filter(o => o.cat === 'aclasser').length;
   rendre();
   toast(`${ajout} opération${ajout > 1 ? 's' : ''} ajoutée${ajout > 1 ? 's' : ''}` +
-        (aClasser ? ` · ${aClasser} à classer` : ' · tout est classé') + (paires ? ` · ${paires} virement${paires > 1 ? 's' : ''} entre tes comptes repéré${paires > 1 ? 's' : ''}` : ''));
+        (aClasser ? ` · ${aClasser} à classer` : ' · tout est classé') + (paires ? ` · ${paires} virement${paires > 1 ? 's' : ''} entre vos comptes repéré${paires > 1 ? 's' : ''}` : ''));
 }
 
 /* ===================== Calculs ===================== */
@@ -1216,9 +1216,9 @@ function rendreTuiles(){
     <div class="tuile" style="--c:var(--t-fixe)"><div class="lbl">Charges fixes</div><div class="val">${eur0(b.fixe)}</div><div class="det">reste à vivre : <strong>${eur0(b.resteAVivre)}</strong></div></div>
     <div class="tuile" style="--c:var(--t-courante)"><div class="lbl">Vie courante</div><div class="val">${eur0(b.depensesCourantes)}</div><div class="det">${b.aclasser > 0.5 ? `dont ${eur0(b.aclasser)} à classer` : 'courses, sorties, transport…'}</div></div>
     <div class="tuile" style="--c:var(--t-epargne)"><div class="lbl">Épargne</div><div class="val">${eur0(b.epargne)}</div><div class="det">${b.revenus > 0 ? taux + ' % des revenus' : 'mise de côté'}</div></div>
-    <div class="tuile tuile--reste"><div class="lbl">Reste en fin de mois</div><div class="val">${b.reste < 0 ? '−' : ''}${eur0(Math.abs(b.reste))}</div><div class="det">${b.reste < 0 ? 'tu as dépensé plus que rentré' : 'revenus − toutes les sorties'}</div></div>`;
+    <div class="tuile tuile--reste"><div class="lbl">Reste en fin de mois</div><div class="val">${b.reste < 0 ? '−' : ''}${eur0(Math.abs(b.reste))}</div><div class="det">${b.reste < 0 ? 'vous avez dépensé plus que rentré' : 'revenus − toutes les sorties'}</div></div>`;
   const ac = $('bandeau-aclasser');
-  ac.innerHTML = b.nAclasser ? `<div class="bandeau"><span><strong>${b.nAclasser} opération${b.nAclasser > 1 ? 's' : ''} à classer</strong> ce mois-ci (${eur0(b.aclasser)}). Range-les une fois : les mois suivants se classeront seuls.</span>
+  ac.innerHTML = b.nAclasser ? `<div class="bandeau"><span><strong>${b.nAclasser} opération${b.nAclasser > 1 ? 's' : ''} à classer</strong> ce mois-ci (${eur0(b.aclasser)}). Rangez-les une fois : les mois suivants se classeront seuls.</span>
     <button class="btn btn--petit" type="button" id="voir-aclasser">Les classer</button></div>` : '';
   if(b.nAclasser) $('voir-aclasser').onclick = () => { vue.aclasser = true; rendreOperations(); $('carte-ops').scrollIntoView({behavior:'smooth'}); };
 }
@@ -1344,8 +1344,8 @@ function rendreRevenus(){
   const internes = ops.filter(o => o.cat === 'interne');
   const ti = internes.filter(o => o.montant > 0).reduce((s,o) => s + o.montant, 0) || internes.reduce((s,o) => s + Math.abs(o.montant), 0);
   $('note-interne').innerHTML = internes.length
-    ? `<strong>${internes.length} virement${internes.length > 1 ? 's' : ''} entre tes comptes</strong> (${eur0(ti)}) ne ${internes.length > 1 ? 'sont' : 'est'} compté${internes.length > 1 ? 's' : ''} ni en revenu ni en dépense : c’est ton argent qui change de poche.`
-    : (etat.comptes.length > 1 ? 'Les virements entre tes comptes sont repérés seuls et ne sont pas comptés deux fois.' : '');
+    ? `<strong>${internes.length} virement${internes.length > 1 ? 's' : ''} entre vos comptes</strong> (${eur0(ti)}) ne ${internes.length > 1 ? 'sont' : 'est'} compté${internes.length > 1 ? 's' : ''} ni en revenu ni en dépense : c’est votre argent qui change de poche.`
+    : (etat.comptes.length > 1 ? 'Les virements entre vos comptes sont repérés seuls et ne sont pas comptés deux fois.' : '');
 }
 
 function optionsCategories(sel){
@@ -1423,7 +1423,7 @@ function rendreReglages(){
   document.querySelectorAll('#onglets-reglages button').forEach(b => b.setAttribute('aria-selected', b.dataset.onglet === ongletReglages ? 'true' : 'false'));
   const c = $('reglages-corps');
   if(ongletReglages === 'cats'){
-    let h = `<p class="aide">Renomme, ajoute ou supprime des catégories. Le groupe décide où elles comptent : charges fixes, vie courante, épargne ou revenus.</p>
+    let h = `<p class="aide">Renommez, ajoutez ou supprimez des catégories. Le groupe décide où elles comptent : charges fixes, vie courante, épargne ou revenus.</p>
       <div class="ligne-champs" style="margin-bottom:14px"><div class="champ" style="flex:2;min-width:180px;margin:0"><label for="nv-cat">Nouvelle catégorie</label><input type="text" id="nv-cat" maxlength="40" placeholder="Ex. : Animaux, Sport des enfants…"></div>
       <div class="champ" style="flex:1;min-width:150px;margin:0"><label for="nv-type">Groupe</label><select id="nv-type">
         <option value="courante">Vie courante</option><option value="fixe">Charges fixes</option><option value="epargne">Épargne</option><option value="revenu">Revenus</option></select></div>
@@ -1458,11 +1458,11 @@ function rendreReglages(){
     });
   }
   else if(ongletReglages === 'regles'){
-    let h = `<p class="aide">Chaque fois que tu corriges une catégorie, l’outil retient le début du libellé. Tu peux aussi écrire une règle toi-même : « si le libellé contient… alors… ».</p>
+    let h = `<p class="aide">Chaque fois que vous corrigez une catégorie, l’outil retient le début du libellé. Vous pouvez aussi écrire une règle vous-même : « si le libellé contient… alors… ».</p>
       <div class="ligne-champs" style="margin-bottom:14px"><div class="champ" style="flex:2;min-width:180px;margin:0"><label for="nv-motif">Si le libellé contient</label><input type="text" id="nv-motif" maxlength="60" placeholder="Ex. : boulangerie martin"></div>
       <div class="champ" style="flex:2;min-width:180px;margin:0"><label for="nv-regle-cat">Alors classer dans</label><select id="nv-regle-cat">${optionsCategories('courses')}</select></div>
       <button class="btn" id="b-ajout-regle" type="button">Ajouter</button></div>`;
-    if(!etat.regles.length) h += '<p class="libelle">Aucune règle pour l’instant. Elles apparaîtront ici au fil de tes corrections.</p>';
+    if(!etat.regles.length) h += '<p class="libelle">Aucune règle pour l’instant. Elles apparaîtront ici au fil de vos corrections.</p>';
     else h += '<ul class="liste-reglages">' + etat.regles.slice().sort((a,b) => a.motif.localeCompare(b.motif)).map(r =>
       `<li><span>« ${esc(r.motif)} »</span><span class="libelle">→</span><select data-regle-cat="${esc(r.motif)}" aria-label="Catégorie">${optionsCategories(r.cat)}</select>
        <button class="btn btn--danger btn--petit" type="button" data-suppr-regle="${esc(r.motif)}">Retirer</button></li>`).join('') + '</ul>';
@@ -1479,11 +1479,11 @@ function rendreReglages(){
     c.querySelectorAll('[data-suppr-regle]').forEach(b => b.onclick = () => { etat.regles = etat.regles.filter(r => r.motif !== b.dataset.supprRegle); reclasserTout(); enregistrer(); rendreReglages(); rendre(); });
   }
   else if(ongletReglages === 'comptes'){
-    let h = `<p class="aide"><strong>Les noms du foyer</strong> servent à reconnaître les virements entre tes propres comptes (ou vers ceux de ton conjoint) : ils ne seront comptés ni en revenu ni en dépense. Sépare-les par des virgules.</p>
+    let h = `<p class="aide"><strong>Les noms du foyer</strong> servent à reconnaître les virements entre vos propres comptes (ou vers ceux de votre conjoint) : ils ne seront comptés ni en revenu ni en dépense. Séparez-les par des virgules.</p>
       <div class="ligne-champs" style="margin-bottom:18px"><div class="champ" style="flex:1;min-width:200px;margin:0"><label for="noms">Noms de famille du foyer</label><input type="text" id="noms" value="${esc(etat.noms.join(', '))}" placeholder="Ex. : Dupont, Martin"></div>
       <button class="btn" id="b-noms" type="button">Enregistrer</button></div>
-      <p class="aide"><strong>Tes comptes</strong></p><ul class="liste-reglages">`;
-    if(!etat.comptes.length) h += '<li class="libelle">Aucun compte : importe un premier relevé.</li>';
+      <p class="aide"><strong>Vos comptes</strong></p><ul class="liste-reglages">`;
+    if(!etat.comptes.length) h += '<li class="libelle">Aucun compte : importez un premier relevé.</li>';
     for(const cp of etat.comptes){
       const ops = etat.operations.filter(o => o.compte === cp.id);
       const ms = [...new Set(ops.map(o => o.date.slice(0,7)))].sort();
@@ -1518,7 +1518,7 @@ function rendreReglages(){
     });
   }
   else {
-    c.innerHTML = `<p class="aide">Tes données sont gardées dans ce navigateur, sur cet ordinateur. Si tu vides l’historique du navigateur ou changes d’ordinateur, elles disparaissent : télécharge de temps en temps une sauvegarde (un petit fichier que tu gardes où tu veux).</p>
+    c.innerHTML = `<p class="aide">Vos données sont gardées dans ce navigateur, sur cet ordinateur. Si vous videz l’historique du navigateur ou changez d’ordinateur, elles disparaissent : téléchargez de temps en temps une sauvegarde (un petit fichier que vous gardez où vous voulez).</p>
       <p><button class="btn" id="b-sauver" type="button">Télécharger une sauvegarde</button>
       <button class="btn btn--fantome" id="b-restaurer" type="button">Reprendre une sauvegarde</button></p>
       <p class="aide" style="margin-top:24px">Pour repartir de zéro sur cet ordinateur :</p>
@@ -1526,7 +1526,7 @@ function rendreReglages(){
     $('b-sauver').onclick = sauvegarder;
     $('b-restaurer').onclick = () => $('fichier-sauvegarde').click();
     $('b-tout-effacer').onclick = () => {
-      if(!confirm('Effacer toutes les opérations, catégories et règles de ce navigateur ?\nPense à télécharger une sauvegarde avant.')) return;
+      if(!confirm('Effacer toutes les opérations, catégories et règles de ce navigateur ?\nPensez à télécharger une sauvegarde avant.')) return;
       etat = etatVide(); enregistrer(); $('dlg-reglages').close(); rendre(); toast('Tout est effacé.');
     };
   }
